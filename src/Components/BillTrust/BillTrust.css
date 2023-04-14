@@ -1,0 +1,60 @@
+.billTrustSection{
+    margin: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.billTrustLeft{
+    width: 60%;
+}
+h5.billTrustSubTitle {
+    font-size: 20px;
+    color: #1264FF;;
+    font-weight: 300;
+    line-height: 30px;
+}
+h1.billTrustTitle {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 82.05px;
+}
+span.chngeText {
+    color:  #1264FF;
+}
+p.billTrustDes {
+    font-size: 22px;
+    color: #656D7C;
+    line-height: 25px;
+    font-weight: 300;
+    width: 80%;
+    padding: 2rem 0;
+}
+.billTrustRight{
+    width: 40%;
+}
+img.billTrustImage {
+    width: 100%;
+}
+/* ==========================mediaQuerry==================================== */
+@media(max-width:480px){
+    h5.billTrustSubTitle {
+        font-size: 12px;
+    } 
+    h1.billTrustTitle {
+        font-size: 32px;
+        line-height: 44px;
+    }
+    .billTrustLeft, .billTrustRight{
+        text-align: center;
+        width: 100%;
+    }
+    .billTrustSection{
+        flex-direction: column;
+        margin: 0 30px;
+    }
+    p.billTrustDes {
+    width: 100%;
+    padding: 1rem 0;
+    font-size: 18px;
+    }
+} 

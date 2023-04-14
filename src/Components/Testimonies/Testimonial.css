@@ -1,0 +1,176 @@
+.carousel {
+	max-width: 1200px;
+}
+h1.testimonialTitle {
+    font-size: 42px;
+    font-weight: 400;
+    font-family: ui-sans-serif;
+    text-align: center;
+}
+.testiClr{
+    position: relative;
+    color:#081F81;
+    font-weight: 600;
+}
+.testiClr::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 15px;
+    padding-top: 10px;
+    border-bottom: 3px solid #081F81;
+    width: 30%;
+}
+.carousel .carousel-item {
+	position: relative;
+	color: #999;
+	font-size: 14px;
+	overflow: hidden;
+	min-height: 340px;
+}
+
+.controlarrow {
+    position: absolute;
+    bottom: 20%;
+    left: 84%;
+}
+.carousel-control-prev {
+    left: -935px;
+    text-decoration: none;
+    top: -260px;
+}
+.carousel-control-next {
+    right: -180px;
+    text-decoration: none;
+    top: -250px;
+}
+i.fa.fa-long-arrow-right, i.fa.fa-long-arrow-left {
+    font-size: 22px;
+    background-color: #081F81;
+}
+.rectangle {
+    width: 100%;
+    display: flex;
+    max-width: 1200px;
+    margin: 6rem auto 0;
+    padding: 0 30px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    }
+    .rectangleImage {
+    width: 40%;
+    background: #DBE2FE;
+    border-radius: 50% 50% 0 0;
+    margin-top: -5vw;
+}
+.vectorImg {
+    width: 100%;
+    margin-top: -1vw;
+}
+    .rectangleText{
+        width: 40%;
+        color: white;
+    }
+    .rectangleTitle{
+        font-family: monospace;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 35px;
+    }
+    p.rectangleDes {
+        font-size: 20px;
+    }
+    img.rating {
+        padding-top: 32px;
+    }
+    .restangleSubTitle {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 29px;
+        padding-top: 10px;
+    }
+    .subtitleSize{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .Vector{
+        width: 50%;
+    }
+
+ /* ================================================ Media Query ========================================== / */
+
+    @media(max-width:1024px){
+        .carousel-control-next{
+            right: -150px;
+        }
+        .carousel-control-prev {
+            left: -782px;
+        }
+        .rectangleTitle{
+            font-size: 17px;
+            line-height: 30px;
+        }
+    }
+    @media(max-width:768px){
+        .rectangleText {
+            width: 50%;
+        }
+        p.rectangleDes {
+            font-size: 16px;
+        }
+        img.rating {
+            padding-top: 20px;
+        }
+            .restangleSubTitle{
+                font-size: 16px;
+                line-height: 23px;
+            }
+            .rectangleTitle{
+                padding-top: 10px;
+                font-size: 20px;
+                line-height: 22px;
+            }
+            .carousel-control-next{
+                right: -113px;
+                top: -240px;
+            }
+            .carousel-control-prev{
+                left: -584px;
+                top: -240px;
+            }
+            .rectangle{
+                margin: 0;
+            }
+    }
+    @media(max-width:426px){
+        .rectangle {
+            flex-direction: column-reverse;
+        }
+        .rectangleTitle {
+            padding-top: 20px;
+        }
+        h1.testimonialTitle {
+            padding-bottom: 22px;
+        }
+        p.rectangleDes {
+            font-size: 16px;
+        }
+        .rectangleText {
+            width: 100%;
+        }
+        .rectangleImage {
+            width: 80%;
+            margin-top: -10vw;
+        }
+        .carousel-control-prev {
+            left: -331px;
+            top: -350px;
+        }
+        .carousel-control-next {
+            right: -64px;
+            top: -340px;
+        }
+    }

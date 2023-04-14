@@ -1,0 +1,110 @@
+
+.header_content_main {
+    display: flex;
+    max-width: 95%;
+    justify-content: space-between;
+    margin: auto;
+    padding: 1rem 0;
+    align-items: center;
+}
+.header_ul {
+    display: flex;
+    list-style: none;
+    width: 80%;
+    align-items: center;
+}
+.header_link {
+    text-decoration: none;
+    padding: 0 20px;
+    color: #929DB1;
+    font-size: 17px;
+    font-weight: 400;
+    border: none;
+}
+.main_logo {
+    width: 88px;
+    height: 80px;
+}
+.menu_icons {
+    display: none;
+}
+.close_menu_icons {
+    display: none;
+}
+.active .close_outline {
+    display: inline-block;
+}
+.active_header_ul {
+    flex-direction: column;
+    position: absolute;
+    top: 90px;
+    right: 0%;
+    width: 100%;
+    padding: 5px 0;
+    display: flex;
+    align-items: flex-start;
+    list-style: none;
+    background-color: white;
+    align-items: center;
+    z-index: 99;
+}
+.active_header_link {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+    background: none;
+    border: none;
+}
+.logo_container{
+    display: flex;
+    margin-top: 12px;
+}
+.unilever_logo{
+    width: 70px;
+    border-right: 2px solid #CACACA;
+    padding-right: 20px;
+}
+.microsoft_logo{
+    width: 70px;
+    padding-left: 37px;
+}
+.header_order{
+    padding: 0 20px;
+    font-size: 11px;
+}
+.logIn_container{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: flex-end;
+}
+.header_get_btn {
+    padding: 17px 30px;
+    border-radius: 34px;
+    background: #1264FF;
+    font-size: 17px;
+    color: white;
+    border: none;
+}
+.menu_icons{
+    width: 20px;
+}
+
+/* / ==================================================== @Media Query ===================================================== / */
+
+@media(max-width:768px) {
+    .header_ul {
+        display: none;
+    }
+    .menu_icons {
+        display: block;
+        font-size: 22px;
+    }
+    .header_content{
+        padding: 8px 0;
+    }
+    .header_get_btn{
+        display: none;
+    }
+}

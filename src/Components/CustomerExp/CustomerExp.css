@@ -1,0 +1,82 @@
+.cutomerexpSection{
+    margin: 0 50px;
+}
+.customerexpImg{
+    position: relative;
+}
+img.customerImg {
+    width: 100%;
+}
+.groupImg{
+    width: 100%;
+}
+
+.experienceImges {
+    position: absolute;
+    top: -70px;
+    right: 65px;
+}
+.bttnImg {
+    position: absolute;
+    top: -3px;
+    right: 4px;
+    width: 100%;
+}
+.crossBttn {
+    position: absolute;
+    right: 37px;
+    top: 35px;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 32px;
+    display: none;
+}
+.customerexpTxt{
+    text-align: center;
+}
+.customerexpHead{
+font-size: 45px;
+font-weight: 700;
+line-height: 80px;
+}
+.customerexpDes{
+    font-weight: 500;
+font-size: 21px;
+line-height: 32px;
+letter-spacing: 0.03em;
+}
+span.chngeText {
+    color:  #1264FF;
+}   
+/* ===========================media query========================= */
+@media(max-width:425px){
+    .cutomerexpSection {
+        margin: 0 30px;
+    }
+    .experienceImges {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: max-content;
+        transform: translate(0,-50%);
+    }
+    .groupImg {
+        max-width: 80px;
+    }
+    .bttnImg {
+        top: 46%;
+        left: 48%;
+        transform: translate(-50%,-50%);
+        max-width: 80px;
+        bottom: auto;
+        right: auto;
+    }
+    .customerexpHead {
+        font-size: 24px;
+        line-height: 42px;
+    }
+    .customerexpDes {
+        font-size: 15px;
+        line-height: 22px;
+    }
+}

@@ -1,0 +1,120 @@
+.universe {
+    color: #1264ff;
+  }
+  p.unilever_heading {
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    margin: 37px 0;
+  }
+  /* / ========================================btn================= / */
+  .btn_div {
+    display: flex;
+    justify-content: center;
+  }
+  .o2d_btn {
+    width: 150px;
+    height: 50px;
+    background: linear-gradient(#4facfe, #1361f9);
+    border: 2px solid #1766f9;
+    border-radius: 4px;
+  }
+  .o2d_img {
+    width: 69px;
+  }
+  .b2c_btn {
+    width: 150px;
+    height: 50px;
+    background: #f5f5f5;
+    border: 2px solid #48a3fd;
+    border-radius: 4px;
+  }
+  img.b2c_img {
+    width: 56px;
+  }
+  /* / =============================================card================== / */
+  .o2cSection {
+    display: flex;
+    justify-content: space-between;
+    margin:24px 50px 0;
+    margin-top: 42px;
+  }
+  .wrapping{
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 32%;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  .card2 {
+    width: 23%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    margin-bottom: 3rem;
+}
+  .card_neoimg {
+    width: 76px;
+  }
+  .order_headi {
+    font-size: 24px;
+    padding: 10px 0;
+    font-weight: 600;
+    color: #101010;
+  }
+  .order_para {
+    font-size: 16px;
+    color: #898F9A;
+    line-height: 24px;
+  }
+  .read_btn {
+    background: none;
+    border: none;
+    padding: 0px;
+    font-weight: bold;
+  }
+  .btn_arrowdiv {
+    display: flex;
+    margin-top: 29px;
+  }
+ 
+  /* / ================================================MEDIA=============================================== / */
+  
+  @media (max-width: 426px) {
+    p.unilever_heading {
+      font-size: 30px;
+      margin: 20px 0;
+    }
+    .btn_div {
+      gap: 16px;
+    }
+    .o2d_btn {
+      width: 111px;
+      height: 40px;
+    }
+    .b2c_btn {
+      width: 111px;
+      height: 40px;
+    }
+    .btn_arrowdiv {
+      margin-top: 16px;
+    }
+    .order_headi {
+      margin: 0;
+    }
+    .o2cSection {
+      flex-direction: column;
+      margin: 24px 30px 0;
+    }
+    .card{
+        width: 100%;
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+    .card2 {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+  }
+  

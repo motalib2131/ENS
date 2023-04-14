@@ -1,0 +1,199 @@
+.main_parentDiv {
+    padding-bottom: 40px;
+  }
+  .o2c_parentDiv {
+    display: flex;
+    justify-content: space-between;
+    max-width: 60%;
+    margin: 0 auto;
+    align-items: flex-end;
+    margin-top: 30px;
+  }
+  .o2c_img_div {
+    position: relative;
+  }
+  .o2c_img_div img {
+    width: 100%;
+    max-width: 340px;
+  }
+  .mainCirCleImg img {
+    width: 100%;
+  }
+  
+  .mainCirCleImg img.cash_img,
+  img.capture_img {
+    max-width: 193px;
+    width: 100%;
+  }
+  .validation_parentdiv {
+    display: flex;
+    justify-content: space-between;
+    max-width: 60%;
+    margin: 20px auto 0;
+  }
+  .ValmainCirCleImg img {
+    max-width: 193px;
+    width: 100%;
+  }
+  .credit_parentDiv {
+    display: flex;
+    justify-content: space-between;
+    max-width: 43%;
+    margin: 0 auto;
+    align-items: flex-end;
+  }
+  img.cash_img {
+    max-width: 193px;
+    width: 100%;
+  }
+  img.cash_img.aatpimg {
+    margin-bottom: -45px;
+  }
+  /* =========================================== */
+  .DashedLine {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+  }
+  .DashedLine1 {
+    border-top: 2px dashed #31cebd;
+    top: 65%;
+    transform: translate(-30%, -50%) skew(10deg, 5deg);
+    left: 100%;
+  }
+  .DashedLine2 {
+    border-top: 2px dashed #31cebd;
+    left: 100%;
+    top: 90%;
+    transform: translate(-30%, -50%) skew(0deg, 40deg);
+  }
+  .DashedLine3 {
+    left: 77%;
+    top: 120%;
+    border: 2px dashed #aaa;
+    transform: translate(-40%, 0%) skew(0deg, 57deg);
+  }
+  .DashedLine7 {
+    border-top: 2px dashed #31cebd;
+    top: 65%;
+    transform: translate(30%, 50%) skew(10deg, -5deg);
+    right: 100%;
+  }
+  .DashedLine4 {
+    left: 50%;
+    top: 100%;
+    border: 2px dashed #aaa;
+    transform: translate(-50%, -20%) skew(0deg, 15deg);
+    width: 0;
+    height: 360px;
+  }
+  .DashedLine6 {
+    border-top: 2px dashed #31cebd;
+    right: 100%;
+    top: 90%;
+    transform: translate(30%, 30%) skew(0deg, -40deg);
+  }
+  .DashedLine5 {
+    right: 70%;
+    top: 110%;
+    border: 2px dashed #aaa;
+    transform: translate(40%, 0%) skew(0deg, -60deg);
+  }
+  
+  /* ================================================= Media Query ============================================================= */
+
+  @media(max-width:1024px){
+    .mainCirCleImg img.cash_img,
+    img.capture_img {
+      max-width: 130px;
+    } 
+    img.cash_img{
+      max-width: 130px;
+    }
+    .validation_parentdiv{
+      max-width: 63%;
+      margin: 30px auto 0;
+    }
+    .o2c_parentDiv{
+      max-width: 65%;
+    }
+    .o2c_img_div{
+      max-width: 180px;
+    }
+    img.cash_img.aatpimg {
+      margin-bottom: -50px;
+    }
+  }
+
+  @media(max-width:768px){
+    .DashedLine3 {
+      left: 70%;
+      transform: translate(-45%, 10%) skew(0deg, 65deg);
+    }
+    .DashedLine5 {
+      right: 70%;
+      top: 100%;
+      transform: translate(55%, 0%) skew(0deg, -65deg);
+    }
+    .DashedLine6 {
+      right: 100%;
+      top: 90%;
+      transform: translate(60%, 0%) skew(0deg, -50deg);
+    }
+    .DashedLine2 {
+      right: 100%;
+      top: 87%;
+      transform: translate(-65%, -50%) skew(0deg, 45deg);
+    }
+    .DashedLine5 {
+      right: 70%;
+      top: 100%;
+      width: 80%;
+      transform: translate(55%, 0%) skew(0deg, -65deg);
+  }
+  }
+ 
+  @media(max-width:426px){
+    .capture_img_div{
+      left: 8%;
+      top: 16%;
+    }
+    .o2c_img_div img {
+      width: 100%;
+      max-width: 100px;
+  }
+    .o2c_parentDiv{
+      width: 100%;
+      margin-top: 13px;
+      justify-content: space-between;
+      max-width: 330px;
+    }
+    img.cash_img{
+      max-width: 70px;
+    }
+    .validation_parentdiv{
+      max-width: 75%;
+    }
+    img.capture_img{
+      max-width: 70px;
+    }
+    .DashedLine4{
+      height: 200px;
+    }
+    .DashedLine3{
+    transform: translate(-45%, 10%) skew(0deg, 70deg);
+    width: 70%;
+    }
+    .DashedLine5{
+      width: 70%;
+      transform: translate(55%, 0%) skew(0deg, -70deg);
+    }
+    .DashedLine2{
+      top: 114%;
+      transform: translate(-40%, -50%) skew(0deg, 45deg);
+    }
+    .DashedLine6{
+      top: 98%;
+    transform: translate(54%, 0%) skew(0deg, -44deg);
+    }
+  }
