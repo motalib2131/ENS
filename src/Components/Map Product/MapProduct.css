@@ -27,7 +27,7 @@
     padding-bottom: 20px;
 }
 
-input[type="text"] {
+.input_type_product{
     width: 95%;
     background-color: #F1F6FF;
     border: none;
@@ -138,7 +138,7 @@ label {
 .checkbox_container {
     width: 100%;
 }
-input[type="text"] {
+.input_type_product {
     padding: 14px 20px;
     margin: 0 18px;
     border-radius: 8px;
@@ -146,6 +146,8 @@ input[type="text"] {
     font-size: 17px;
     color: #7D8799;
     margin-bottom: 20px;
+}
+.input_type_product_container{
     position: relative;
 }
 .filter_heading{
@@ -162,7 +164,7 @@ input[type="text"] {
 }
 .checkbox_popup{
     position: absolute;
-    top: 79%;
+    top: -90%;
     left: 51%;
     width: 42%;
     background-color: #e4d4d4;
