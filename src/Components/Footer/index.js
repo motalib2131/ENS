@@ -12,11 +12,11 @@ function Footer() {
         <h1 className='footerTitle'>O2C</h1>
       </div>
       <ul className='footerList'>
-       <select className='footerSlct'>Product
+       <select className='footerSlct'>Product1
          <option value="" key="">Product</option> 
          <option value="" key="">product1</option> 
         </select>
-        <select className='footerSlct'>Industries
+        <select className='footerSlct'>Industries1
          <option value="" key="">Industries</option> 
          <option value="" key="">product1</option> 
         </select>

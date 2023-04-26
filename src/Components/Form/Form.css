@@ -1,0 +1,85 @@
+.formSection {
+    width: 100%;
+    max-width: 800px;
+    margin: 14px 50px;
+}
+.formHead{
+    font-weight: 700;
+    font-size: 67px;
+    line-height: 76px;
+    letter-spacing: 0.04em;
+    color: #113A92;
+}
+.formNameData {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.firstName {
+    width: 48%;
+    border: 2px solid #113A92;
+    border-radius: 32px;
+    padding: 10px 18px;
+    outline: none;
+
+}
+input.emailData {
+    width: 100%;
+    padding: 10px 16px;
+    border-radius: 32px;
+    border: 2px solid #113A92;
+    outline: none;
+
+}
+::placeholder{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+}
+.textarea {
+    border: 2px solid #113A92;
+    border-radius: 32px;
+    width: 100%;
+    padding: 18px 24px;
+    outline: none;
+    margin: 10px 0;
+}
+.formBttn {
+    background: #113A92;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 18.046px;
+    line-height: 21px;
+    letter-spacing: 0.07em;
+    color: #FFFFFF;
+    width: 120px;
+    padding: 8px 0;
+    border: none;
+    margin: 1.5rem 0 0;
+}
+/* ========================mediaquerry============================== */
+@media(max-width:768px){
+    .formSection {
+        max-width: 700px;
+        margin:0 30px;
+    }
+}
+@media(max-width:425px){
+    .formSection {
+        max-width: 370px;
+        margin:20px 30px;
+    }
+    .formHead {
+        font-size: 30px;
+        line-height: 10px;
+        margin: 0;
+    }
+    .formNameData {
+        flex-direction: column;
+    }
+    .firstName {
+        width: 100%;
+        margin: 10px 0;
+    }
+}

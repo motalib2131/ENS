@@ -1,0 +1,116 @@
+.OurPeopleSection{
+    margin: 0 50px;
+    position: relative;
+
+}
+.OurPeopleHeading{
+    font-weight: 700;
+    font-size: 122px;
+    line-height: 183px;
+    letter-spacing: 0.16em;
+    opacity: 0.06;
+    border: 3px solid #141414;
+}
+.OurPeopleSubHeading {
+    margin: 0;
+    font-weight: 700;
+    font-size: 52px;
+    letter-spacing: 0.06em;
+    color: #0E0E0E;
+    position: absolute;
+    top: 8%;
+    left: 21%;
+}
+.cardSection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+.cardPeople{
+    width: 23%;
+    margin-bottom: 3rem;
+    position: relative;
+}
+.cardImg{
+    width: 100%;
+}
+.cardData {
+    position: absolute;
+    bottom: -28px;
+    left: 28px;
+    width: 80%;
+    background: #FFFFFF;
+    padding: 10px 0;
+    box-shadow: 0px 0px 11.2851px #DFDCDC;
+    border-radius: 3.47233px;
+}
+.cardHead{
+    font-weight: 800;
+    font-size: 17.177px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.cardDes{
+    font-weight: 600;
+    font-size: 12.1532px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: #1389D3;
+    margin: 0;
+}
+@media(max-width:768px){
+    .OurPeopleSection {
+        margin: 0 30px;
+    }
+    .OurPeopleHeading {
+        font-size: 71px;
+        line-height: 80px;
+    }
+    .OurPeopleSubHeading {
+        font-size: 32px;
+        top: 3%;
+        left: 17%;
+    }
+    .cardPeople {
+        width: 32%;
+    }
+    .cardData {
+        left: 22px;
+    }
+    .cardHead {
+        font-size: 13.177px;
+    }
+    .cardDes {
+        font-size: 10.1532px;
+    }
+}
+@media(max-width:425px){
+    .OurPeopleHeading {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .OurPeopleSubHeading {
+        font-size: 18px;
+        top: 2%;
+        left: 12%;
+    }
+    .cardPeople {
+        width: 48%;
+    }
+    .cardData {
+        left: 15px;
+    }
+    .cardHead {
+        font-size: 10.177px;
+        margin: 0;
+    }
+    .cardDes {
+        font-size: 7.1532px;
+    }
+        
+}

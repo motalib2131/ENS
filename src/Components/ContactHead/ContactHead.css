@@ -1,0 +1,60 @@
+.contactHeadSection{
+    background: linear-gradient(90deg, #FAFBFF 0.01%, #EBF3FF 100%);
+    margin-bottom: 3rem;
+}
+.contactHeadSubSection{
+    margin: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contactHeadSectionTxt{
+    width: 45%;
+}
+.contactHeadSectionImg {
+    width: 45%;
+    text-align: end;
+}
+.contactHeadSectionSubTitle{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 82px;
+    letter-spacing: 0.06em;
+    margin: 0;
+}
+.contactHeadSectionTitle{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #1264FF;
+    margin: 0;
+}
+.contactImage{
+    width: 30%;
+}
+@media(max-width:768px){
+    .contactHeadSectionSubTitle {
+        font-size: 49px;
+        line-height: 66px;
+    }
+    .contactHeadSubSection {
+        margin: 0 30px;
+    }
+    .contactImage {
+        width: 50%;
+    }
+}
+@media(max-width:425px){
+    .contactHeadSection {
+        margin-bottom: 1rem;
+    }
+    .contactHeadSectionTitle {
+        font-size: 13px;
+    }
+    .contactHeadSectionSubTitle {
+        font-size: 25px;
+        line-height: 20px;
+    }
+}
